@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700;900");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+}
+
+body {
+  background: #c5dedd;
+  color: #00406c;
+  font-family: 'Montserrat', serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #00406c;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #ffd60a;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #00406c;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  margin: 50px 0px;
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+
+.btn-blue {
+  background-color: #00406c;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+#introduction p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#connect p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
