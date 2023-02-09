@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700;900");
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300; /* if you want the light version */
-}
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
 
 body {
   background: #c5dedd;
@@ -11,6 +12,12 @@ body {
   font-family: 'Montserrat', serif;
   font-size: 18px;
   font-weight: lighter;
+  background-image: url("images/Background.jpg");
+  background-size: cover;
+}
+
+div {
+  display: block;
 }
 
 h1 {
@@ -35,40 +42,6 @@ a {
   color: #00406c;
   font-weight: 600;
   font-size: 20px;
-}
-
-div {
-  display: block;
-}
-
-.container {
-  width: 700px;
-  margin: 0 auto;
-}
-
-.card-white {
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 5px;
-  margin: 50px 0px;
-  text-align: center;
-  border: 1px solid lightgrey;
-}
-
-.btn-blue {
-  background-color: #00406c;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
-}
-
-.img-circle {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 50%;
 }
 
 .list-inline > li {
